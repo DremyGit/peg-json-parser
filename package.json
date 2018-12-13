@@ -1,0 +1,29 @@
+{
+  "name": "peg-json-parser",
+  "version": "0.1.0",
+  "description": "A JSON parser based on PEG.js",
+  "main": "index.js",
+  "repository": "git@github.com:DremyGit/json-parser.git",
+  "author": "Dremy <dremy@dremy.cn>",
+  "license": "MIT",
+  "scripts": {
+    "precommit": "npm run build && npm run test",
+    "start": "gulp watch",
+    "build": "gulp build",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^8.0.0-beta.2",
+    "gulp-pegjs": "^0.1.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-uglify": "^3.0.1",
+    "husky": "^1.2.0",
+    "jest": "^23.6.0",
+    "pegjs": "^0.10.0"
+  }
+}
